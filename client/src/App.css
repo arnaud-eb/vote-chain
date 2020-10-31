@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  background: #adeee3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.CandidateDetails {
+  background: #423e28;
+  height: 20%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px solid black;
+}
+
+.navbar {
+  height: 10%;
+  background: #63b995 !important;
+}
+
+.tab { 
+  color: white;
+  text-decoration: none !important;
+}
+
+.tab:hover{
+  color: #423e28;
+}
+
+.home, .form {
+  height: 70%;
+  background: #adeee3;
+  padding-top: 20px;
+  border-top: 2px solid black;
+}
+
+.form {
+  padding: 7% 50px;
+  
+}
