@@ -1,8 +1,7 @@
 .App {
   text-align: center;
-  height: auto;
+  height: 100%;
   width: 100%;
-  background: #adeee3;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -53,14 +52,34 @@
   color: #423e28;
 }
 
-.home, .form {
+.home, .form, .details {
   height: 70%;
-  background: #adeee3;
   padding-top: 20px;
   border-top: 2px solid black;
 }
 
 .form {
   padding: 7% 50px;
-  
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.details ul {
+  list-style: none;
+}
+
+.candidate {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 20px 20px 20px rgba(0,0,0,0.19);
+  width: 35%;
+  margin: 10px;
+  padding: 20px 30px 10px 0;
+  text-align: center;
+  background-color: #adeee3;
 }
